@@ -1,12 +1,12 @@
-import * as THREE from 'three';
+﻿import * as THREE from 'three';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
 import { CEREBRAL_CORTEX_GLB_FILES } from './cerebralCortexManifest.js';
 import cerebralCortexStructures from './cerebralCortexStructures.js';
 import { BRAIN_STRUCTURE_META } from './brainStructureMeta.js';
 import { BRAINSTEM_DETAIL_GLB_FILES } from './brainstemDetailManifest.js';
 import brainstemDetailStructures from './brainstemDetailStructures.js';
-import { createViewer, centerSceneOnce, frameObject, disposeScene, resizeViewer } from './shared/viewer.js';
-import { THEME_COLORS } from './shared/theme.js';
+import { createViewer, centerSceneOnce, frameObject, disposeScene, resizeViewer } from './viewer.js';
+import { THEME_COLORS } from './theme.js';
 import { modelUrl } from './paths.js';
 import { layerIdForStructure } from './structureUiMeta.js';
 
@@ -1015,3 +1015,4 @@ export class CerebralCortexScene {
     this.renderer.dispose();
   }
 }
+

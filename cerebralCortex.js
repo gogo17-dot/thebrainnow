@@ -1,5 +1,5 @@
-import { initTheme, getTheme } from './shared/theme.js';
-import { initInfoPanel, showInfoPanel, hideInfoPanel } from './shared/infoPanel.js';
+﻿import { initTheme, getTheme } from './theme.js';
+import { initInfoPanel, showInfoPanel, hideInfoPanel } from './infoPanel.js';
 import { CerebralCortexScene } from './CerebralCortexScene.js';
 import { LAYER_DEFS } from './structureUiMeta.js';
 
@@ -26,7 +26,7 @@ function updateLoading(loaded, total, done = false, failed = 0) {
     if (failed >= total || loaded === 0) {
       loadingEl.hidden = false;
       loadingEl.textContent =
-        'Could not load 3D models. Ensure public/brainstem_glb/ is committed and pushed to GitHub.';
+        'Could not load 3D models. Ensure all required .glb files are uploaded to the repo root and pushed to GitHub.';
       return;
     }
     loadingEl.hidden = true;
@@ -226,3 +226,4 @@ window.addEventListener('error', (event) => {
   loadingEl.hidden = false;
   loadingEl.textContent = `Failed to start viewer: ${event.message}`;
 });
+

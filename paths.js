@@ -1,12 +1,7 @@
-/**
- * Resolve asset URLs for local dev and GitHub Pages subpaths.
- */
-const ROOT = new URL('../', import.meta.url);
-
+﻿/** Resolve GLB URLs for GitHub Pages flat layout (GLBs at repo root). */
 export function modelUrl(filename) {
-  const encoded = String(filename)
-    .split('/')
-    .map((part) => encodeURIComponent(part))
-    .join('/');
-  return new URL(`public/brainstem_glb/${encoded}`, ROOT).href;
+  return new URL(
+    String(filename).split('/').map(encodeURIComponent).join('/'),
+    import.meta.url,
+  ).href;
 }

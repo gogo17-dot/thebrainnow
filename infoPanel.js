@@ -1,10 +1,10 @@
-import {
+﻿import {
   STRUCTURE_RELATIONS,
   splitClinicalText,
-} from '../structureUiMeta.js';
-import cerebralCortexStructures from '../cerebralCortexStructures.js';
-import brainstemDetailStructures from '../brainstemDetailStructures.js';
-import { BRAIN_STRUCTURE_META } from '../brainStructureMeta.js';
+} from './structureUiMeta.js';
+import cerebralCortexStructures from './cerebralCortexStructures.js';
+import brainstemDetailStructures from './brainstemDetailStructures.js';
+import { BRAIN_STRUCTURE_META } from './brainStructureMeta.js';
 
 let panelEl = null;
 let titleEl = null;
@@ -149,3 +149,4 @@ export function hideInfoPanel() {
   if (!panelEl) return;
   panelEl.hidden = true;
 }
+
