@@ -1,0 +1,19 @@
+const brainstemDetailStructures = {
+  Midbrain: {
+    title: 'MIDBRAIN',
+    description:
+      'The midbrain (mesencephalon) is the short rostral segment of the brainstem between the diencephalon and pons. Its ventral cerebral peduncles carry descending corticospinal, corticobulbar, and corticopontine fibres; the central tegmentum contains the red nucleus, substantia nigra, reticular formation, and ascending pathways; and the dorsal tectum contains the superior and inferior colliculi. The cerebral aqueduct passes through its centre, surrounded by periaqueductal grey.\n\nThe midbrain coordinates eye movements through cranial-nerve III and IV nuclei, supports visual and auditory orienting reflexes through the colliculi, and modulates movement through dopaminergic substantia nigra circuits. It also contributes to arousal, pain control, and autonomic responses.\n\nMidbrain lesions may cause ipsilateral oculomotor or trochlear deficits with contralateral weakness, tremor, or ataxia depending on the structures involved. Aqueduct obstruction can produce hydrocephalus, while dorsal compression can cause Parinaud syndrome. On axial MRI, the cerebral peduncles and tectum give the midbrain its characteristic configuration.',
+  },
+  Pons: {
+    title: 'PONS',
+    description:
+      'The pons is the broad middle segment of the brainstem between the midbrain and medulla, lying anterior to the fourth ventricle and cerebellum. Its ventral basis pontis contains longitudinal corticospinal and corticobulbar fibres interwoven with pontine nuclei and transverse pontocerebellar fibres that enter the cerebellum through the massive middle cerebellar peduncles. The dorsal pontine tegmentum contains ascending sensory pathways, reticular formation, and nuclei associated with cranial nerves V through VIII.\n\nFunctionally, the pons relays cortical motor plans to the cerebellum, coordinates horizontal gaze through the abducens nucleus and medial longitudinal fasciculus, participates in facial sensation and movement, and contributes to hearing, balance, sleep, and respiratory modulation.\n\nPontine infarction or haemorrhage can produce crossed cranial-nerve and long-tract findings. A large bilateral ventral lesion may cause locked-in syndrome, in which consciousness and vertical eye movements are preserved despite quadriplegia and loss of speech. On sagittal imaging, the pons forms the prominent rounded bulge anterior to the fourth ventricle.',
+  },
+  Medulla_oblongata: {
+    title: 'MEDULLA OBLONGATA',
+    description:
+      'The medulla oblongata is the caudal brainstem, extending from the pontomedullary junction to the spinal cord at the foramen magnum. Its ventral pyramids contain corticospinal fibres, most of which cross in the caudal pyramidal decussation. Lateral olives overlie the inferior olivary nuclei, which provide powerful climbing-fibre input to the cerebellum. Dorsally, gracile and cuneate nuclei relay fine touch and proprioception before their fibres cross as the medial lemniscus.\n\nThe medulla contains nuclei and pathways essential for swallowing, phonation, tongue movement, visceral sensation, and parasympathetic control through cranial nerves IX through XII. Reticular and solitary-tract networks regulate respiration, blood pressure, heart rate, and protective airway reflexes, making medullary integrity vital for life.\n\nLateral medullary (Wallenberg) syndrome, often caused by PICA or vertebral artery infarction, produces dysphagia, vertigo, ipsilateral facial sensory loss, and contralateral body pain-temperature loss. Medial medullary infarction affects the pyramid, medial lemniscus, and hypoglossal fibres. The medulla is continuous below with the cervical spinal cord.',
+  },
+};
+
+export default brainstemDetailStructures;
